@@ -174,7 +174,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3332761324087728203, guid: f777d6015747d62468df22c287527de3, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1613417513}
   m_SourcePrefab: {fileID: 100100000, guid: f777d6015747d62468df22c287527de3, type: 3}
 --- !u!1 &459422605
 GameObject:
@@ -535,6 +538,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1613417503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3332761324087728203, guid: f777d6015747d62468df22c287527de3, type: 3}
+  m_PrefabInstance: {fileID: 440131374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1613417513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613417503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab2c0937e92fe56459fe9c5c648878ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovementFly
+  maxSpeed: 8
+  moveAction: {fileID: -5179734120483165479, guid: c254a26f1dff06a429389131c58c6dc8, type: 3}
 --- !u!1001 &2047493382346176666
 PrefabInstance:
   m_ObjectHideFlags: 0

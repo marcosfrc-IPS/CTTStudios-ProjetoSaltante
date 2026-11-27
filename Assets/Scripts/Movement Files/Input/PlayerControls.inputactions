@@ -13,7 +13,8 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": true,
+                    "priority": 0
                 },
                 {
                     "name": "Jump",
@@ -22,7 +23,8 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -40,7 +42,7 @@
                 {
                     "name": "up",
                     "id": "f0b32993-1827-465c-af37-d4255555d851",
-                    "path": "",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -51,7 +53,7 @@
                 {
                     "name": "down",
                     "id": "57d3ad74-af43-48b7-b60a-71ac6d0ee93f",
-                    "path": "",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -95,7 +97,7 @@
                 {
                     "name": "up",
                     "id": "386b339a-0bbd-48f2-ab2e-4fc6d195acc6",
-                    "path": "",
+                    "path": "<Gamepad>/leftStick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -106,7 +108,7 @@
                 {
                     "name": "down",
                     "id": "31c16aac-8f99-4000-bd0a-1c573963523e",
-                    "path": "",
+                    "path": "<Gamepad>/leftStick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
