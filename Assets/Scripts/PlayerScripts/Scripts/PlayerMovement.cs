@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     //Referencia ao componente de fisica e entrada horizontal atual
     private Rigidbody2D body;
-    private float moveInput;
+    public float moveInput;
 
     private void Awake()
     {
