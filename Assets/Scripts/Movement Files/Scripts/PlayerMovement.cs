@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     //Referencia ao script que verifica se o jogador esta no chao
     [SerializeField] private PlayerGroundCheck groundCheck;
     [SerializeField] private Animator animator;
-    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] public SpriteRenderer spriteRenderer;
 
     //Taxas de aceleracao e desaceleracao calculadas no Awake
     private float groundAcceleration;

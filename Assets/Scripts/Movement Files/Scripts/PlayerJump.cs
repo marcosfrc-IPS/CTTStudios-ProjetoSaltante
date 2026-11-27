@@ -44,7 +44,6 @@ public class PlayerJump : MonoBehaviour
 
     private void OnJumpPerformed(InputAction.CallbackContext context)
     {
-        Debug.Log($"Jump acionado! GroundCheck: {groundCheck != null}, IsGrounded: {groundCheck?.IsGrounded}");
         if (groundCheck != null && groundCheck.IsGrounded)
         {
             jumpRequested = true;
